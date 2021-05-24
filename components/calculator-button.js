@@ -18,7 +18,6 @@ const CalculatorButton = ({ children, ...props }) => (
     inset 0 -1px 0 0 hsl(0deg 0% 100% / 15%), 0 1px 0 0 hsl(0deg 0% 100% / 15%)"
     textShadow="0 1px hsl(0deg 0% 100% / 40%)"
     _hover={{ background: "#eaeaea" }}
-    backgroundColor={backgroundColor}
     {...props}
   >
     {children}
